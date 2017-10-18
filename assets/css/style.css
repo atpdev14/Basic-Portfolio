@@ -1,4 +1,73 @@
 * {
 	box-sizing: border-box;
-	
+	overflow: auto;
+}
+
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f9ff+4,ffdff7+100 */
+	background: #f0f9ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #f0f9ff 4%, #ffdff7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f0f9ff 4%,#ffdff7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f0f9ff 4%,#ffdff7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#ffdff7',GradientType=0 ); /* IE6-9 */
+	height: 100%;
+}
+
+h1, nav, header {
+	display: inline;
+}
+
+header {
+	display: block;
+	background: #FFDFF7;
+	opacity: 0.1;
+}
+
+h1 {
+	font-size: 50px;
+	padding-top: 0px;
+	padding-left: 18px;
+	color: #828180;
+	padding-bottom: 2px;
+	font-family: "Gill Sans", light;
+}
+
+nav{
+	float: right;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-right: 10px;
+	font-stretch: expanded;
+}
+
+.navLink {
+	color: #828180;
+	text-decoration: none;
+	opacity: 0.9;
+	font-family: "Gill Sans", light;
+}
+
+#picOfTyler {
+	display: block;
+	width: 750px;
+	height: auto;
+	margin: 10px auto;
+	box-shadow: 5px 5px 3px #eaeaea;
+	clear: left;
+	border-radius: 14px;
+}
+
+aside {
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+	text-align: center;
+	background-color: #FFDFF7;
+	opacity: 0.5;
+	padding-bottom: 105px;
+}
+
+.socialMedLogo {
+	width: 30px;
+	height: auto;
 }
